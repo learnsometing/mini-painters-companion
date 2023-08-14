@@ -1,7 +1,6 @@
 {
   "name": "mini-painters-companion",
   "version": "1.0.0",
-  "packageManager": "yarn@3.6.1",
   "devDependencies": {
     "eslint": "^8.47.0",
     "eslint-config-prettier": "^9.0.0",
@@ -12,7 +11,10 @@
     "prettier": "^3.0.1",
     "typescript": "^5.1.6"
   },
+  "packageManager": "yarn@3.6.1",
   "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --clean",
     "prettier:check": "prettier --check ."
   }
 }

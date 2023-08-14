@@ -1,7 +1,21 @@
 {
-  "editor.codeActionsOnSave": ["source.fixAll.format", "source.fixAll.eslint", "source.fixAll.prettier"],
+  "editor.codeActionsOnSave": [
+    "source.fixAll.format",
+    "source.fixAll.eslint",
+    "source.fixAll.prettier"
+  ],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "eslint.run": "onSave",
-  "files.autoSave": "onFocusChange"
+  "files.autoSave": "onFocusChange",
+  "prettier.configPath": ".prettierrc.json",
+  "prettier.requireConfig": true,
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "eslint.nodePath": ".yarn/sdks",
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js",
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }
