@@ -7,7 +7,7 @@
     "experimentalDecorators": true,
     "incremental": true,
     "isolatedModules": true,
-    "module": "es2020",
+    "module": "CommonJS",
     "moduleResolution": "NodeNext",
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
@@ -19,7 +19,8 @@
     "resolveJsonModule": true,
     "rootDir": "src",
     "strict": true,
-    "target": "es2020"
+    "target": "es2020",
+    "types": ["node"]
   },
   "include": ["src/**/*"]
 }

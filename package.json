@@ -2,14 +2,17 @@
   "name": "mini-painters-companion",
   "version": "1.0.0",
   "devDependencies": {
+    "@types/markdown-it": "^13.0.1",
+    "@types/node": "^20.6.2",
     "eslint": "^8.47.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-import": "^2.28.0",
     "eslint-plugin-jest": "^27.2.3",
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
-    "prettier": "^3.0.1",
+    "prettier": "2.8.8",
     "rimraf": "^5.0.1",
+    "ts-node": "^10.9.1",
     "typescript": "^5.1.6"
   },
   "packageManager": "yarn@3.6.1",
@@ -17,5 +20,8 @@
     "build": "tsc",
     "clean": "rimraf dist tsconfig.tsbuildinfo",
     "prettier:check": "prettier --check ."
+  },
+  "dependencies": {
+    "markdown-it": "^13.0.1"
   }
 }

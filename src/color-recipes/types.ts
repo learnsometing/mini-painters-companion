@@ -7,9 +7,15 @@ export namespace ColorRecipes {
     WASH
   }
 
+  export enum Brands {
+    AK = 'AK Interactive',
+    CITADEL = 'Citadel Color',
+
+  }
+
   export type Paint = {
     brand: string
-    color: string
+    colorName: string
   }
 
   export type Step = {
